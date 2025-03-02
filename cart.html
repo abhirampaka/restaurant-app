@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - Foodie Hub</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="assets/logo.jpg" alt="Logo" width="50">
+            <h1>Foodie Hub</h1>
+        </div>
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Search restaurants or cuisines...">
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="location-search.html">Location Search</a>
+            <a href="about.html">About</a>
+            <a href="cart.html">Cart (<span id="cart-count">0</span>)</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="cart">
+            <h2>Your Cart</h2>
+            <div id="cart-items-list"></div>
+            <p>Total: $<span id="cart-total">0</span></p>
+            <button id="checkout-btn">Proceed to Checkout</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Foodie Hub. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
