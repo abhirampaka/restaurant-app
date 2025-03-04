@@ -1,4 +1,3 @@
-# restaurant-app
 # Foodie Hub
 
 Foodie Hub is a restaurant listing web application where users can explore different restaurants, search by name or location, and navigate through paginated results. The project is built using **HTML, CSS, JavaScript, and MongoDB**.
@@ -31,12 +30,16 @@ Foodie Hub is a restaurant listing web application where users can explore diffe
 ## Project Structure
 ```
 foodie-hub/
-│-- public/          # Static assets (CSS, JS, Images)
-│-- views/           # HTML templates
-│-- models/          # MongoDB Schemas
-│-- routes/          # Express routes
-│-- server.js        # Main server file
-│-- package.json     # Dependencies and scripts
+│-- assets/                # Images and static assets
+│-- css/                   # Stylesheets
+│-- data/                  # Database and JSON files
+│-- js/                    # JavaScript scripts
+│-- README.md              # Project documentation
+│-- about.html             # About page
+│-- cart.html              # Shopping cart page
+│-- index.html             # Homepage
+│-- location-search.html   # Search restaurants by location
+│-- restaurant-details.html # Restaurant details page
 ```
 
 ## Future Enhancements
@@ -49,4 +52,3 @@ Feel free to fork this repository and submit pull requests. If you find any bugs
 
 ## License
 This project is licensed under the **MIT License**.
-
