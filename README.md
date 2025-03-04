@@ -1,4 +1,4 @@
-# Foodie Hub
+# Foodie Hub | [Demo](https://drive.google.com/file/d/1FvjSBa2Hpbxk0kgyDL7fbox8UATXLBne/view?usp=sharing)
 
 Foodie Hub is a restaurant listing web application where users can explore different restaurants, search by name or location, and navigate through paginated results. The project is built using **HTML, CSS, JavaScript, and MongoDB**.
 
